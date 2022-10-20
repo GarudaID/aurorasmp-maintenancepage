@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- META VARIABEL UNTUK INPUT-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.0/jquery.fancybox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.0/jquery.fancybox.min.css">
+    <title>Website sedang Maintenance!</title>
+</head>
+
+<body bgcolor="#1e1e1e" text="white">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Staatliches');
+    
+        textarea {
+          height: 150px;
+          resize: none;
+          outline: none;
+          overflow: auto;
+          background: transparent;
+          color: #ffffff;
+        }
+    
+        button {
+          background: transparent;
+          font-family: Staatliches;
+          color: #ffffff;
+          border-color: #ffffff;
+          cursor: pointer;
+        }
+    
+        input {
+          background: transparent;
+          font-family: Staatliches;
+          color: #ffffff;
+          border-color: #ffffff;
+          cursor: pointer;
+        }
+    
+        font {
+          font-family: Staatliches;
+        }
+    
+        body::-webkit-scrollbar {
+          width: 12px;
+          /* width of the entire scrollbar */
+        }
+    
+        body::-webkit-scrollbar-track {
+          background: #1e1e1e;
+          /* color of the tracking area */
+        }
+    
+        body::-webkit-scrollbar-thumb {
+          background-color: #1e1e1e;
+          /* color of the scroll thumb */
+          border: 3px solid gray;
+          /* creates padding around scroll thumb */
+        }
+
+      </style>
+
+    <!-- MUSIK FUNCTION OTOMATIS-->
+
+    <body onclick="playAudio();" class=""><audio id="lagu" __idm_id__="823202817">
+            <source src="https://media.publit.io/file/mp3cut.net.mp3">
+        </audio>
+        <div class="music">
+            <script>
+                var x = document.getElementById("lagu");
+
+                function playAudio() {
+                    x.play();
+                }
+
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                }
+
+                function changeImage() {
+                    if (document.getElementById("imgClickAndChange").src == "body") {
+                        document.getElementById("imgClickAndChange").src = "body";
+                    } else {
+                        document.getElementById("imgClickAndChange").src = "body";
+                    }
+                }
+            </script>
+            <section id="webhook_input" class="main">
+                <!-- Header / Judul -->
+                <center>
+                    <h1 style="color:Tomato;">&#9829; Maintenance Slur! &#9829;</h1>
+                </center>
+                <hr>
+                <!-- LOGO TAMPILAN DI TENGAH WEBSITE-->
+                <div class="logo-container">
+                    <center>
+                        <img src="socials/auricon1.png" height="230px" width="auto" class="logo" />
+                    </center>
+                </div>
+                <hr>
+                <!-- BERITA YANG INGIN DISAMPAIKAN -->
+                <center>
+                    <p style="color: cyan;">Server yang dialami oleh <strong>AuroraSMP</strong> sedang tahap pengembangan, untuk support dan
+                        bantuan kalian bisa salurkan sedikit <strong>DONASI</strong> untuk meringakanan beban
+                        kami.<br>sudah kami sediakan dibawah ini dan terima kasih banyak untuk yang sudah melakukan
+                        <strong>DONASI</strong></p>
+                </center>
+
+                <hr>
+                <!-- BUTTON HOVER -->
+                <div class="info-container">
+                    <center>
+                        <h1><i>
+                                <p style="color: tomato;">Saweria - Paypal dan QRis</p></a></h1>
+                    </center>
+                    <center>
+                        <div class="social-group">
+                            <a href="https://saweria.co/aurorasmp" target="_blank" rel="noreferrer noopener"><img
+                                    src="socials/saweria.png" class="social-group social-icon" alt="Saweria" /></a>
+                            <a href="https://paypal.me/rikie02" target="_blank" rel="noreferrer noopener"><img
+                                    src="socials/paypal.png" class="social-group social-icon" alt="Paypal" /></a>
+                            <!-- Button with Images -->
+                <center>
+                    <a data-fancybox="gallery" class="primary-btn" href="socials/qris.jpeg">Pembayaran QRIS</a>
+                    <a class="primary-btn" href="/donatur/">Donatur List</a>
+                </center>
+                                   
+                            <h1><i>
+                                    <p style="color: tomato;">Discord dan Youtube</p>
+                                </i></h1>
+                            <a href="https://dsc.gg/aurorasmp" target="_blank" rel="noreferrer noopener"><img
+                                    src="socials/discord.png" class="social-group social-icon" alt="Discord" /></a>
+                            <a href="https://www.youtube.com/channel/UCYRQm-qLo6TpSUjnPZyDLjA" target="_blank"
+                                rel="noreferrer noopener"><img src="socials/yt.png" class="social-group social-icon"
+                                    alt="YouTube" /></a>
+                        </div>
+                    </center>
+                    <center>
+                        <hr>
+                        <!-- COPYRIGHT FOOTER -->
+                        <footer><b>Made with &#9829; by Aurora </b></footer>
+                        <p>Copyright @ 2022 <a href="https://github.com/GarudaID" style="color: cyan;">Near
+                                Hoshinova</a> - All Rights Reserved</p>
+                        <!--<a href="https://dsc.gg/aurorasmp" class="support-button">
+		<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+	</a>-->
+                    </center>
+
+                    <!-- SCRIPT AREA-->
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.0/jquery.fancybox.min.js"></script>
+
+
+    </body>
+
+</html>
